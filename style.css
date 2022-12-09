@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    height: 100%;
+
+ 
+}
+/* Nav area */
+nav{
+    border: 1px solid black;
+    height: 10%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.nav-search{
+
+    width: 30%;
+    display:flex;
+    justify-content: right;
+}
+.nav-search input{
+    height: 2em;
+    margin-top:3em;
+    width: 20em;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.nav-links{
+    width: 40%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/* Main screen area */
+.main-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    height: 40%;
+}
